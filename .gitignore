@@ -1,2 +1,9 @@
 # Mac files
 .DS_Store
+
+# Editor files
+.vscode
+
+# Rust files
+Cargo.lock
+/target
