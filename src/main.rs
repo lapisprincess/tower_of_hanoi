@@ -1,6 +1,5 @@
 pub mod board;
 pub mod system;
-pub mod pathfind;
 
 use crate::system::play_sequential;
 use clearscreen::clear;
