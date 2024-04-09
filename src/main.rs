@@ -26,3 +26,20 @@ fn main() {
     let _ = std::io::stdin().read_line(&mut input);
     if input.trim() == "seq" { play_sequential(rings, towers); } 
 }
+
+enum Mode {
+    Player,
+    Auto,
+}
+
+struct Config {
+    num_rings: u32,
+    num_towers: u32,
+    mode: Mode,
+}
+
+impl Config {
+    fn new(args Vec<String>) -> Config {
+        
+    }
+}
